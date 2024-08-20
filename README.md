@@ -176,11 +176,8 @@ One way to introduce diversity is to modify the ranking score by incorporating a
    - **Similarity Penalty**: Penalize items that are too similar to those already recommended.
 
 #### b. **Combined Score with Diversity**
-   - The combined score can now include a diversity component:
-     \[
-     \text{Final Score} = \alpha \times \text{Similarity Score} + \beta \times \text{RPI} - \gamma \times \text{Diversity Penalty}
-     \]
-     Where \( \gamma \) is a weight that controls the importance of diversity in the final ranking.
+  <img width="685" alt="Screenshot 2024-08-20 at 11 16 22 AM" src="https://github.com/user-attachments/assets/b32e5bea-044d-434d-b046-00a0572428ce">
+
 
 ### 2. **Implementing Diversity in Code**
 
