@@ -359,7 +359,7 @@ print("Text Similarity Matrix:")
 print(text_similarity_matrix)
 ```
 
-### 2. **Integrating Image Features**
+### 2. **Integrating Image Features (Hybrid filtering (Item-based collaborative filtering+content-based filtering)): Add different similarity matrix**
 
 #### a. **Image Embedding**
 - Use pre-trained deep learning models (e.g., ResNet, VGG, or EfficientNet) to extract image features.
